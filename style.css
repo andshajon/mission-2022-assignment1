@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Merriweather', serif;
+
 }
 
 /*  Header style begins here*/
@@ -152,10 +153,41 @@ body{
     padding:20px 0px;
 }
 
+  .background-picture{
+      background-image: url(/images/shapes/shape-4.png);
+      background-repeat: no-repeat;
+  }
+  .diffrent{
+      margin-top: 30px;
+  }
+
   .text-center{
       text-align: center;
       padding-top: 15px;
       color: white;
+  }
+
+
+  .portfolio .container{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+
+  .portfolio .container img{
+      width: 250px;
+      height: 250px;
+  }
+
+  .portfolio h2{
+      text-align: center;
+      font-size: 40px;
+      padding-top: 40px;
+  }
+
+  .portfolio .container h3{
+      margin: 15px 0px;
   }
 
  
